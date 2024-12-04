@@ -44,19 +44,12 @@ const CardList = () => {
         )
         setChangeStatus('')
     }
-
-
-
-
-
-
-
     return (
-        <div>
+        <div className='Task-input'>
             <input onChange={handleTitleChange} type="text" placeholder="Title" />
             <input onChange={handleDescriptionChange} type="text" placeholder="Description" />
             <br />
-            <button onClick={addTask}>Add Task</button>
+            <button className='Addtask-btn' onClick={addTask}>Add Task</button>
             <TaskCard tasks={tasks} setDeleteId={setDeleteId} setChangeStatus={setChangeStatus} />
         </div>
     )

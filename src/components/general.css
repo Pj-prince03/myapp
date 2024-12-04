@@ -1,6 +1,31 @@
+
+.Navbar {
+    display: flex;
+    gap: 2px;
+}
+
+.Navbar ul{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
 ul{
     list-style: none;
 }
+
+.Task-input{
+    display: flex;
+    gap: 2vw;
+    margin: .05vw;
+    padding: 0.5vw;
+}
+
+.Addtask-btn{
+    
+}
+
+/* ------------------------------------------ TASKCARD CSS------------------------------------------------------ */
 
 .TaskCard{
     background-color: #f5f5f5;
